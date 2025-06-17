@@ -151,4 +151,51 @@ end-to-end-insurance-risk-analytics-week3/
   dvc pull
   ```
 
+# Insurance Risk Analytics - Machine Learning
+
+This notebook demonstrates machine learning techniques for insurance risk analytics, building on the data exploration and cleaning steps from previous notebooks.
+
+## Project Structure
+
+```
+notebooks/
+│
+├── Task1.ipynb      # Data exploration and visualization
+├── tsak 3.ipynb     # Statistical hypothesis testing
+├── ML.ipynb         # Machine learning modeling (this notebook)
+├── README.md        # Documentation
+├── MachineLearningRating_v3_cleaned.csv  # Cleaned dataset
+└── ...
+```
+
+## Setup Instructions
+
+ **Prepare the data**  
+   Ensure `MachineLearningRating_v3_cleaned.csv` is present in the project directory.
+
+**Open and run the notebook**  
+   Open `ML.ipynb` in VS Code or JupyterLab and run the cells sequentially.
+
+## Features
+
+- **Data Loading**: Reads the cleaned insurance dataset.
+- **Feature Engineering**: Prepares features for modeling.
+- **Model Training**: Trains machine learning models (e.g., logistic regression, decision trees) to predict insurance risk or claims.
+- **Model Evaluation**: Evaluates models using metrics such as accuracy, ROC-AUC, confusion matrix, etc.
+- **Visualization**: Plots feature importance, ROC curves, and other relevant charts.
+
+## Example Workflow
+
+1. Load the cleaned data.
+2. Select features and target variable.
+3. Split data into training and test sets.
+4. Train one or more machine learning models.
+5. Evaluate and compare model performance.
+6. Visualize results.
+
+## Troubleshooting
+
+- **Import errors**: Ensure all required packages are installed.
+- **Data not found**: Make sure the cleaned CSV file is in the correct directory.
+- **Model errors**: Check for missing values or incorrect feature types before training.
 
