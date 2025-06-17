@@ -1,0 +1,5 @@
+[core]
+    autostage = true
+    remote = end-to-end-insurance-risk-analytics-week3
+['remote "end-to-end-insurance-risk-analytics-week3"']
+    url = https://github.com/ha-bina/end-to-end-insurance-risk-analytics-week3
